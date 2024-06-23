@@ -167,7 +167,7 @@
 }
 
 </style>
-<nav class="navbar navbar-expand-lg navbar-bg">
+<nav class="navbar navbar-expand-lg navbar-bg" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-custom fw-bold fs-2" href="#">Enigma</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -209,14 +209,11 @@
                         <span class="slider"></span>
                     </label>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="cta">
-                        <span>Get Started</span>
-                        <svg width="15px" height="10px" viewBox="0 0 13 10">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                        </svg>
-                    </a>
+                <li class="nav-item  px-2">
+                    <a href="" class="btn btn-info btn-md">LOGIN</a>
+                </li>
+                <li class="nav-item  px-2">
+                    <a href="user_register.php" class="btn btn-warning btn-md">REGISTER</a>
                 </li>
             </ul>
         </div>

@@ -10,6 +10,9 @@
 
 .text-custom{
     font-family: 'Poppins',sans-serif;
+    color: var(--secondary-color) !important;
+}
+.navbar-brand{
     color: var(--primary-color) !important;
 }
 
@@ -19,6 +22,9 @@
 }
 .nav-link {
     color: var(--primary-color) !important;
+}
+.bg-custom-input{
+    background-color: var(--primary-color) !important;
 }
 body {
     background-color: var(--primary-color) !important;
