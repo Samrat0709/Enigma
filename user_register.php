@@ -2,61 +2,101 @@
 <?php include './components/script.php' ?>
 <?php include './components/style.php' ?>
 
-<body>
+<body class="position-relative">
 
 
     <!-- <h1 class="text-danger">This is a test </h1> -->
     <?php include './components/navbar.php' ?>
 
 
+    <h1 class="text-center text-custom my-4 fw-bold">Register Yourself to Enigma</h1>
+
     <div class="container-fluid  d-flex row">
-        <div class="col-lg-6 m-4">
-            <form action="" method="POST">
-                <div class="row p-3 rounded bg-transparent border border-2 border-info ">
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-custom">Full Name</label>
-                            <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="col-lg-6">
+            <div class="m-4">
+                <form action="" method="POST">
+                    <div class="row p-3 rounded bg-transparent border border-2 border-info ">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-custom">Full Name</label>
+                                <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-custom">Email address</label>
-                            <input type="email" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-custom">Email address</label>
+                                <input type="email" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-custom">Phone Number</label>
-                            <input type="number" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-custom">Phone Number</label>
+                                <input type="number" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-custom">Occupation</label>
-                            <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-custom">Occupation</label>
+                                <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label text-custom">School / College / University Name</label>
-                            <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label text-custom">School / College / University Name</label>
+                                <input type="text" class="form-control bg-custom-input text-custom" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-12 mb-3">
-                        <button type="submit" class="btn btn-info btn-md w-100">REGISTER</button>
-                    </div>
+                        <div class="col-lg-12 mb-3">
+                            <button type="submit" class="btn btn-info btn-md w-100 text-custom">REGISTER</button>
+                        </div>
 
 
 
-                </div>
-            </form>
+                    </div>
+                </form>
+            </div>
+
         </div>
         <div class="col-lg-6 d-flex justify-content-center align-items-center">
-            <img src="./assets/login.png" alt="" class="img-fluid w-50">
+            <img src="./assets/login.png" alt="" class="img-fluid " style="width: 65%;">
         </div>
 
     </div>
+
+    <div class="position-fixed bottom-0 end-0 m-4">
+        <label class="switch">
+            <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <g fill="#ffd43b">
+                        <circle r="5" cy="12" cx="12"></circle>
+                        <path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path>
+                    </g>
+                </svg></span>
+            <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path>
+                </svg></span>
+            <input type="checkbox" id="theme-toggle" class="input">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <script>
+    // Function to toggle the theme
+    function toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+    }
+
+    // Set the theme on initial load
+    function setInitialTheme() {
+        const savedTheme = localStorage.getItem("theme") || "light";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+    }
+
+    document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+    setInitialTheme();
+</script>
 
 </body>
 

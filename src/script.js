@@ -1,4 +1,5 @@
 console.log("Working");
+
 // Function to toggle the theme
 function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute("data-theme");
