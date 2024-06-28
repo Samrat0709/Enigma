@@ -202,3 +202,28 @@ body {
 .cta:active {
     transform: scale(0.95);
 }
+
+.nav_class {
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.nav_class::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color: #ffc506;
+    transition: 0.5s ease;
+}
+
+.nav_class:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+}
+
+.nav_class:hover::before {
+    width: 100%;
+}

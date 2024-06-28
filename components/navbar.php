@@ -5,17 +5,17 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end px-4" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <ul class="navbar-nav gap-4">
+                <li class="nav-item nav_class">
+                    <a class="nav-link active text-custom  fw-medium " aria-current="page" href="index.php">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                <li class="nav-item nav_class">
+                    <a class="nav-link text-custom  fw-medium" href="#">Features</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                <li class="nav-item nav_class">
+                    <a class="nav-link text-custom  fw-medium" href="#">Pricing</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown link
                     </a>
@@ -24,13 +24,13 @@
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li>
 
                 </li>
                 <li class="nav-item d-flex">
                     <div class="px-2">
-                        <a href="" class="btn btn-info btn-md " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Login">LOGIN</a>
+                        <a href="user_login.php" class="btn btn-info btn-md " data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Login">LOGIN</a>
                     </div>
                     <div class="px-2">
                         <a href="user_register.php" class="btn btn-warning btn-md" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Register">REGISTER</a>
